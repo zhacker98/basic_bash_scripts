@@ -14,8 +14,6 @@ echo "Enter IP of Router"
 
 read router
 
-#router="192.168.100.1"
-
 echo "Checking Network Connectivity"
 
 echo
