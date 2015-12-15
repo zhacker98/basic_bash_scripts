@@ -12,7 +12,7 @@
 # Return status:
 # 0 - Everything went well
 # 1 - Ran as non-root user
-# 2 - Could not perfomr <requested_task>
+# 2 - Could not perform <requested_task>
 
 ## To Check that root is running the script
 
