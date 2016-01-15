@@ -1,0 +1,43 @@
+#! /bin/bash
+
+##################################################################
+#
+#    <Script Name>
+#        <Script Description>
+#
+#    Written by <someone>
+#
+##################################################################
+
+# Return status:
+# 0 - Everything went well
+# 1 - Ran as non-root user
+# 2 - Could not perform <requested_task>
+
+## To Check that root is running the script
+
+function myUsage() {
+echo "Usage: $(basename $0) <optional_parameters>"
+echo "Script must be run as 'root' user"
+}
+
+# Check if script is not being run as root
+if [ $(id -u) -ne 0 ]
+then
+          myUsage
+          exit 1
+fi
+
+
+…
+…..
+…
+
+
+
+#### Check exit code of last command
+
+
+
+myStatus=$?
+exit $myStatus

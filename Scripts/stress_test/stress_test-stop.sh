@@ -1,5 +1,13 @@
 #!/bin/bash
 
+################################################################
+#
+#	A Script to stop all stress testing
+#
+#	Written by Joel E White
+#
+################################################################
+
 echo "Stopping stress_test_load.sh"
 
 killall stress_test_load.sh
